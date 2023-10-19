@@ -1,4 +1,4 @@
-require("mongoose").connect("mongodb://0.0.0.0:27017/blog_project")
+require("mongoose").connect("mongodb+srv://rrohu786:hwBdyozEal5zBNCB@cluster0.zsiavfo.mongodb.net/?retryWrites=true&w=majority")
 
 .then(()=>{
   console.log("DATA BASE CONNECTED");
@@ -7,3 +7,7 @@ require("mongoose").connect("mongodb://0.0.0.0:27017/blog_project")
 .catch((err)=>{
    console.log("NOT CONNECTED---",err);
 });
+
+
+// rrhou786
+// hwBdyozEal5zBNCB
